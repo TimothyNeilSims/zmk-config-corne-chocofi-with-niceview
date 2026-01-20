@@ -9,49 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    behaviors {
-        hm_gui: hm_gui {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_GUI";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <>;
-        };
-
-        hm_alt: hm_alt {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_ALT";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-
-        hm_ctrl: hm_ctrl {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_CTRL";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-
-        hm_shift: hm_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_SHIFT";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-};
-
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
