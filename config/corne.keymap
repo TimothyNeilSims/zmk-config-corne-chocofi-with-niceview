@@ -20,7 +20,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp GRAVE   &kp B &kp L &kp D &kp C &kp V   &kp K &kp Y  &kp O     &kp U   &kp COMMA    &kp BSPC
-   &kp BSLH &kp N &kp R &kp T &kp S &kp G   &kp P &kp H  &kp A     &kp L   &kp SEMI &kp FSLH
+   &kp BSLH &kp N &kp R &kp T &kp S &kp G   &kp P &kp H  &kp A     &kp E   &kp I &kp FSLH
    &kp ESC &kp X &kp Q &kp M &kp W &kp Z   &kp J &kp F  &kp SEMI &kp SQT &kp DOT &kp RET
                   &kp LGUI &mo 1 &mo 2   &kp RET &kp SPACE &kp RALT
                         >;
